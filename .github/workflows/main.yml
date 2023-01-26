@@ -24,4 +24,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: pytest
         run: |
-          python tests/test.py
+          pytest layer/testing/test.py
