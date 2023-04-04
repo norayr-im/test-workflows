@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "test_workflows"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 pylint = "2.15.5"
 black = "22.10.0"
 
