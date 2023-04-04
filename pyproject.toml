@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-workflows"
+version = "0.1.0"
+description = ""
+authors = ["Norayr Mamulyan <norayr@instigatemobile.com>"]
+readme = "README.md"
+packages = [{include = "test_workflows"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylint = "2.15.5"
+black = "22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
